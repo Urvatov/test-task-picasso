@@ -23,5 +23,5 @@ def runserver():
         sys.argv.append("runserver")
 
 if __name__ == '__main__':
-    #runserver()
+    runserver()
     main()

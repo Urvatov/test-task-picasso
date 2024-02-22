@@ -1,0 +1,9 @@
+django
+django-environ
+djangorestframework
+celery
+gunicorn
+sqlparse
+asgiref
+redis
+kombu
