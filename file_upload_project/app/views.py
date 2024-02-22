@@ -13,8 +13,8 @@ def upload(request):
     serializer = FileSerializer(data=request.data)
 
     if serializer.is_valid():
-        file = serializer.save()
-        process_file.delay(file.instance.id)
+        serializer.save()
+        process_file.delay(serializer.instance.id) 
         return Response(serializer.data, status=status.HTTP_201_CREATED)
     else:
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
