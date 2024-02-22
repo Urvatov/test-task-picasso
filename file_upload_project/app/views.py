@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
@@ -24,3 +24,7 @@ def files(request):
     files = File.objects.all()
     serializer = FileSerializer(files, many=True)
     return Response(serializer.data)
+
+
+def index(request):
+    return HttpResponse('<h1>Приложение работает.</h1>')
