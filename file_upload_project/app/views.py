@@ -19,3 +19,8 @@ def upload(request):
     else:
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
+@api_view(['GET'])
+def files(request):
+    files = File.objects.all()
+    serializer = FileSerializer(files, many=True)
+    return Response(serializer.data)
