@@ -27,6 +27,19 @@ GET-запрос:
 Ответ:  
 ![изображение](https://github.com/Urvatov/test-task-picasso/assets/117490456/f521e829-f709-44b8-ad78-bb9c67e0dbf7)  
 
+Тестирование проводилось при помощи Locust.  
+RPS на отправке файла около 6:  
+![изображение](https://github.com/Urvatov/test-task-picasso/assets/117490456/e0c59b9e-5eff-45e0-83d4-eddb25011c1c)  
+
+RPS на получении списка файлов около 500:  
+![изображение](https://github.com/Urvatov/test-task-picasso/assets/117490456/0a7d08c3-413e-4968-9ec5-06316dcedecb)
+
+
+
+
+Деплой приложения:  
+http://urvatov.pythonanywhere.com/
+
 
 
 
