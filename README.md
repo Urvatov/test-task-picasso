@@ -38,8 +38,7 @@ RPS на получении списка файлов около 500:
 
 
 Деплой приложения:  
-http://urvatov.pythonanywhere.com/
+http://urvatov.pythonanywhere.com/  
 
-
-
+Проект можно развернуть при помощи [Dockerfile](file_upload_project/Dockerfile)
 
