@@ -17,11 +17,11 @@
 ![изображение](https://github.com/Urvatov/test-task-picasso/assets/117490456/c3ba0cca-ac99-44d4-810a-1910f747cb91)  
 
 Работа Celery:  
-![изображение](https://github.com/Urvatov/test-task-picasso/assets/117490456/a15a6718-f5d7-4b82-ba9c-e5520e4af425)
+![изображение](https://github.com/Urvatov/test-task-picasso/assets/117490456/a15a6718-f5d7-4b82-ba9c-e5520e4af425)  
 
 Второй эндпоинт files/, возвращающий список всех файлов с их данными и статусом обработки:  
 
-GET-запрос:
+GET-запрос:  
 ![изображение](https://github.com/Urvatov/test-task-picasso/assets/117490456/f8e9c396-9652-4555-83ba-aa844518f930)  
 
 Ответ:  
